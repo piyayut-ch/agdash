@@ -1,0 +1,23 @@
+Package: agdash
+Title: แดชบอร์ดสินค้าเกษตร
+Version: 0.0.0.9000
+Authors@R: person('Piyayut', 'Chitchumnong', email = 'piyayut.ch@gmail.com', role = c('cre', 'aut'))
+Description: แดชบอร์ดแสดงสถานการณ์การผลิตและการตลาดของสินค้าเกษตรที่สำคัญของไทย
+License: What license is it under?
+Imports: 
+    config,
+    golem,
+    shiny,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    shinipsum,
+    shinydashboard,
+    bs4Dash
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
